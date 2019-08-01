@@ -1,0 +1,24 @@
+Braithwaite Manor Battle
+Old Friends (Let's Ride)
+Fleeting Joy (Battle Theme)
+
+/////
+-g - turn on debugging (so GDB gives more friendly output)
+-Wall - turns on most warnings
+-O or -O2 - turn on optimizations
+-o <name> - name of the output file
+-c - output an object file (.o)
+-I<include path> - specify an include directory
+-L<library path> - specify a lib directory
+-l<library> - link with library lib<library>.a
+/////
+
+/////
+Ogre::Vector3 transVector = Ogre::Vector3(1,1,1);
+Or even simpler:
+Ogre::Vector3 transVector (1,1,1);
+/////
+
+/////
+LocalEndpoint != RemoteEndpoint
+/////

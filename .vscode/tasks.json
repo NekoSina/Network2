@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "hey",
+            "command": "g++",
+            "args": [
+                
+                "-g",
+                "client.cpp",
+                "-g",
+                "CNet.cpp",
+                "-I",
+                "C:\\Users\\sina\\projects\\Network\\dependencies\\includes\\SDL2",
+                "-L",
+                "C:\\Users\\sina\\projects\\Network\\dependencies/lib",
+                "-lmingw32",
+                "-lSDL2main",
+                "-lSDL2_net",
+                "-lSDL2",
+                "-lSDL2_test"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
